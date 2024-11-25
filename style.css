@@ -11,7 +11,7 @@
     font-size: 28px;
     font-family: 'Space Grotesk';
     color: #FFFFFF;
-    font-weight: bold;
+    font-weight: bold;zc
     margin-top: 30px;
 }
 
@@ -19,14 +19,16 @@
    background-color: transparent;
 }
 
-body {{
-    background-image: ("{Agriculture.jpg}");
-    background-size: cover;  /* Cover the entire page */
-    background-position: center center;  /* Center the background image */
-    background-repeat: no-repeat;  /* Prevent the image from repeating */
-    color: white;  /* Ensure all text is white */
-    font-family: Arial, sans-serif;
-}
+.stApp {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, #4f2991 3%, #7dc4ff 38%, #36cfcc 68%, #a92ed3 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    }
+
 
  .welcome-title {
         font-size: 48px;  /* Increased font size */
