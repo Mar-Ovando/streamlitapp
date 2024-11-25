@@ -23,6 +23,9 @@ menu_selected = option_menu(None, ["Home", "Preview", "Usage of water", 'Usage o
     icons=['house', 'cloud-upload', "water", 'plant'],
     menu_icon="cast", default_index=0, orientation="horizontal")
 
+if menu_selected == "Home":
+    st.write("Welcome to the agriculture database, please choose an option in the menu to visualize the data")
+
 if menu_selected == "Preview":
     #show the dataframe table preview
     st.dataframe(df,use_container_width=True)
