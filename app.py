@@ -24,7 +24,8 @@ menu_selected = option_menu(None, ["Home", "Preview", "Usage of water", 'Usage o
     menu_icon="cast", default_index=0, orientation="horizontal")
 
 if menu_selected == "Home":
-    st.write("Welcome to the agriculture database, please choose an option in the menu to visualize the data")
+    st.markdown('<p class="welcome-title">Welcome to the Agriculture Database</p>', unsafe_allow_html=True)
+    st.markdown('<p class="intro-text">Please choose an option in the menu to visualize the data.</p>', unsafe_allow_html=True)
 
 if menu_selected == "Preview":
     #show the dataframe table preview
