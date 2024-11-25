@@ -2,3 +2,4 @@ pandas
 plotly
 kagglehub
 streamlit
+streamlit_option_menu
