@@ -29,9 +29,16 @@
     background-attachment: fixed;
     }
 
+ .welcome-title {
+        font-size: 48px;  /* Increased font size */
+        font-weight: bold;
+        color: white;  /* White color */
+        text-align: center;  /* Center-align the text */
+    }
 
 .intro-text {
         font-size: 24px;
         color: white; 
         text-align: center;  
     }
+
