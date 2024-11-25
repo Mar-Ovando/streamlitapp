@@ -29,3 +29,9 @@
     background-attachment: fixed;
     }
 
+
+.intro-text {
+        font-size: 24px;
+        color: white; 
+        text-align: center;  
+    }
