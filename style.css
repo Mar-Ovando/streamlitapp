@@ -19,7 +19,7 @@
    background-color: transparent;
 }
 
-.stApp {{
+.stApp {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
@@ -28,7 +28,7 @@
     background-position: center center;  /* Center the background image */
     background-repeat: no-repeat;  /* Prevent the image from repeating */
     background-attachment: fixed;  /* Keep the background fixed during scrolling */
-
+}
 
  .welcome-title {
         font-size: 48px;  /* Increased font size */
